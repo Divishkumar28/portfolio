@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
 
 const Certification = () => {
   return (
-    <div>completed full stack development course certification in Besent Technologies </div>
-  )
-}
+    <>
+      <div>
+       <h4>completed full stack development course certification in BesentTechnologies </h4> 
+      </div>
 
-export default Certification
+      <button>Download certificate</button>
+    </>
+  );
+};
+
+export default Certification;

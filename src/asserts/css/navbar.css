@@ -1,0 +1,40 @@
+/* #navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    background-color: aliceblue;
+
+}
+ul{
+    flex: 1;
+    list-style: none;
+    text-align: center;
+}
+ul li{
+    display: flex;
+    float: inline-start;
+    padding: 5px 10px 5px 10px;
+} */
+
+
+ul{
+    display: flex;
+    float: inline-end;
+}
+
+li{
+    display: flex;
+    float: inline-start;
+    padding: 5px 10px 5px 10px;
+}
+
+#navbar:hover{
+    background-color: aliceblue;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#nav{
+    text-decoration: none;
+}

@@ -1,15 +1,12 @@
 import './App.css';
-import Certification from './components/Certification';
-import Education from './components/Education';
-import Experience from './components/Experience';
+import Navbar from './components/Navbar';
+import RouteService from './components/RouteService';
 
 function App() {
   return (
     <div className="App">
-      <h1>PORTFOLIO</h1>
-      <Experience/>
-      <Education/>
-      <Certification/>
+      <Navbar/>
+      <RouteService/>
     </div>
   );
 }
